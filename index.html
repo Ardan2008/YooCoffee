@@ -1,0 +1,354 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoo Coffee</title>
+    <link rel="icon" type="image" href="image/gk.png">
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h1 class="logo-text">Yoo <span style="color: var(--secondary-color);">Coffee</span></h1>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Get Started.html" class="buttonnn"><span>Get Started</span></a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title" 
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" 
+                    data-aos-duration="1500">Best Coffee</h2>
+                    <h3 class="subtitle" 
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1500">Make your day great with our special coffee!</h3>
+                        <p class="description" 
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1500">Welcome to our <b style="color: var(--secondary-color);">Yoo Coffee</b>, where
+                        every bean tells a story and every cup sparks joy.</p>
+                        
+                    <div class="buttons" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="#menu" class="button order-now">Order Now</a>
+                        <a href="#contact" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="coffee-hero-section.png" alt="Hero" 
+                    class="hero-image" 
+                    data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="500"
+                    data-aos-duration="5000">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper" 
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1800">
+                    <img src="Ard.png" alt="About" 
+                    class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title" data-aos="fade-down" data-aos-duration="2000">About Us</h2>
+                    <p class="text" 
+                        data-aos="zoom-out" 
+                        data-aos-duration="1800">We are coffee enthusiasts dedicated to delivering the finest coffee experience, crafted from 
+                        carefully selected beans and roasted with precision. Born out of our love for Indonesian local coffee, 
+                        we are committed to serving authentic flavors and a warm atmosphere for everyone who walks through our doors.
+                        With every brew, we believe that coffee is more than just a beverage—it is a story, a culture, and a 
+                        gathering that brings people together.
+                    </p>
+                    <div class="social-link-list" 
+                    data-aos="fade-up" 
+                    data-aos-duration="30000">
+                        <a href="https://www.facebook.com/share/1FipQA4fw8/" class="social-link" target="_blank"><i class="fa-brands 
+                        fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/yoo_selen?igsh=MWszbnR4eXk5dHF6NQ==" class="social-link" target="_blank"><i class="fa-brands 
+                        fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@yoo_selen?_t=ZS-8wDP8wHaXt2&_r=1" class="social-link" target="_blank"><i class="fa-brands 
+                        fa-tiktok"></i></a>
+                        <a href="https://github.com/Ardan2008" class="social-link" target="_blank"><i class="fa-brands 
+                        fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+        <h2 class="section-title" data-aos="fade-down" data-aos-duration="2000">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="Hot_Beverages-removebg-preview.png" alt="Hot Beverages" 
+                        class="menu-image" data-aos="fade-down" data-aos-duration="2000">
+                        <div class="menu-details" data-aos="fade-up" data-aos-duration="2000">
+                            <h3 class="name">Hot Beverages</h3>
+                            <p class="text">Wide range of Steaming hot coffee to make you
+                            fresh and light.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="Cold_Beverages-removebg-preview.png" alt="Cold Beverages" 
+                        class="menu-image" data-aos="fade-down" data-aos-duration="2000">
+                        <div class="menu-details" data-aos="fade-up" data-aos-duration="2000">
+                            <h3 class="name">Cold Beverages</h3>
+                            <p class="text">Creamy and frothy cold coffee to make
+                            you cool.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="Refreshment-removebg-preview.png" alt="Refreshment" 
+                        class="menu-image" data-aos="fade-down" data-aos-duration="2000">
+                        <div class="menu-details" data-aos="fade-up" data-aos-duration="2000">
+                            <h3 class="name">Refreshment</h3>
+                            <p class="text">Fruit and icy refreshing drink to make feel
+                            refresh.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="Special_Combos-removebg-preview.png" alt="Special Combos" 
+                        class="menu-image" data-aos="fade-down" data-aos-duration="2000">
+                        <div class="menu-details" data-aos="fade-up" data-aos-duration="2000">
+                            <h3 class="name">Special Combos</h3>
+                            <p class="text">Your favorite eating and drinking combations.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="Dessert-removebg-preview (1).png" alt="Dessert" 
+                        class="menu-image" data-aos="fade-down" data-aos-duration="2000">
+                        <div class="menu-details" data-aos="fade-up" data-aos-duration="2000">
+                            <h3 class="name">Dessert</h3>
+                            <p class="text">Satiate your palate and take you on a
+                            culinary treat.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="Burger___French_Fries-removebg-preview (1).png" alt="Burger & French Fries" 
+                        class="menu-image" data-aos="fade-down" data-aos-duration="2000">
+                        <div class="menu-details" data-aos="fade-up" data-aos-duration="2000">
+                            <h3 class="name">Burger & French Fries</h3>
+                            <p class="text">Quick bites to satisfy your small size
+                            hunger.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonials Section-->
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="2000">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
+                            <li class="testimonial swiper-slide" data-aos="flip-left">
+                                <img src="user 1 L.jpg" alt="User" class="user-image">
+                                <h3 class="name">James Alexander Thompson</h3>
+                                <i class="feedback">"Loved the French roast. Perfectly 
+                                balanced and rich. Will or der again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide" data-aos="flip-left">
+                                <img src="user 2 L.jpg" alt="User" class="user-image">
+                                <h3 class="name">Michael Andrew Sullivan</h3>
+                                <i class="feedback">"Great expresso blend! Smooth and bold
+                                flavor. Fast shipping tool!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide" data-aos="flip-left">
+                                <img src="user 3 L.jpg" alt="User" class="user-image">
+                                <h3 class="name">Christopher Daniel Reynolds</h3>
+                                <i class="feedback">"Fantastic mocha flavor. Fresh and 
+                                aromatic. Quick shipping!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide" data-aos="flip-left">
+                                <img src="user 4 L.jpg" alt="User" class="user-image">
+                                <h3 class="name">William Joseph Carter</h3>
+                                <i class="feedback">"Excellent quality! Fresh beans and
+                                quick delivery. Highly recommend."</i>
+                            </li>
+                            <li class="testimonial swiper-slide" data-aos="flip-left">
+                                <img src="User 5 P.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emily Grace Johnson</h3>
+                                <i class="feedback">"Best decaf I've tried! Smooth and 
+                                flavorful. Arrived promptly."</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gallery Section-->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="2000">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item" data-aos="zoom-out-down" data-aos-duration="1700">
+                        <img src="gallery-1.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-out-down" data-aos-duration="1700">
+                        <img src="gallery-2.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-out-down" data-aos-duration="1700">
+                        <img src="gallery-3.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-out-down" data-aos-duration="1700">
+                        <img src="gallery-4.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-out-down" data-aos-duration="1700">
+                        <img src="gallery-5.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item" data-aos="zoom-out-down" data-aos-duration="1700">
+                        <img src="gallery-6.png" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="2000">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list" 
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1600">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Jl. Protong Timur, Purwosari, 67162</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-reguler fa-envelope"></i>
+                        <p>info@YooCoffeewebsite.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(208) 857-3576</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 10.00 AM - 9.00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Saturday: 10.00 AM - 3.00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: Closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.yooselenweb.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input"
+                    required data-aos="fade-up-left" data-aos-duration="1600">
+                    <input type="email" placeholder="Your email" class="form-input"
+                    required data-aos="fade-up-left" data-aos-duration="1600">
+                    <textarea placeholder="Your message" class="form-input"
+                    required data-aos="fade-up-left" data-aos-duration="1600"></textarea>
+                    <button class="submit-button" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="100000">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">© 2025 Yoo Coffee</p>
+
+                <div class="social-link-list" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                    <a href="https://www.facebook.com/share/1FipQA4fw8/" class="social-link" target="_blank"><i class="fa-brands 
+                    fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/yoo_selen?igsh=MWszbnR4eXk5dHF6NQ==" class="social-link" target="_blank"><i class="fa-brands 
+                    fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@yoo_selen?_t=ZS-8wDP8wHaXt2&_r=1" class="social-link" target="_blank"><i class="fa-brands 
+                    fa-tiktok"></i></a>
+                    <a href="https://github.com/Ardan2008" class="social-link" target="_blank"><i class="fa-brands 
+                    fa-github"></i></a>
+                </div>
+
+                <p class="policy-text" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Linking Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking Custom Script -->
+    <script src="script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
